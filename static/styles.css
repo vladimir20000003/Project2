@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(54,54,54);
+}
+
+h1 {
+  color: rgb(241,241,241);
+  font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+p {
+  font-family: 'Arial';
+  color: rgb(241,241,241);
+}
+
+input[type="text"] {
+
+   height: 24px;
+   width: 120px;
+   border: 1px solid #bdbdbd;
+   color: rgb(241,241,241);
+   font-size: 18px;
+   font-family: Tahoma;
+   background-color: rgb(60,128,238);
+}
+
+input[type="submit"] {
+   border: 1px solid rgb(241,241,241);
+   font-family: 'Arial';
+   color: rgb(241,241,241);
+   height: 24px;
+   width: 120px;
+   background-color: #ba1616;
+}

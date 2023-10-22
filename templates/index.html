@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+    <link href="/static/styles.css" rel="stylesheet">
+</head>
+<body>
+<h1>Предсказания длины и глубины сварного шва</h1>
+<form method="post" action="" >
+    <p>
+        <label>Для разделения целой и дробной части используйте точку</label>
+    </p>
+    <p>
+        <label for="IW">Величина сварочного тока (IW)</label>
+        <input type="text" name="IW" >
+    </p>
+    <p>
+        <label for="IF">Ток фокусировки электронного пучка (IF)</label>
+        <input type="text" name="IF" >
+    </p>
+    <p>
+        <label for="VW"> Скорость сварки (VW)</label>
+        <input type="text" name="VW" >
+    </p>
+    <p>
+        <label for="FP">  Расстояние от поверхности образцов до электронно-оптической системы (FP)</label>
+        <input type="text" name="FP">
+    </p>
+    <p>
+        <input type="submit">
+    </p>
+
+</form>
+{%if message%}
+<p>{{message}}</p>
+{% endif %}
+</body>
+</html>
